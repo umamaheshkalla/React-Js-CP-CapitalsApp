@@ -1,0 +1,42 @@
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 9px double maroon;
+}
+.question-container {
+  display: flex;
+}
+.option-container {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px;
+  border: 2px maroon double;
+}
+.options {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.question {
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 15px;
+  color: maroon;
+}
